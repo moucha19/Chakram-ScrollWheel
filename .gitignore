@@ -30,6 +30,9 @@ jlcpcb/fab
 # Exported BOM files
 *.xml
 
+# Exported board files
+*.step
+
 # Backup folders
 *-backups*
 *#auto_saved_files#
