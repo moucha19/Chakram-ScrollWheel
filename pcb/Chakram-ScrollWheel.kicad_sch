@@ -3156,7 +3156,7 @@
 		)
 		(uuid "0956accb-f9fe-42a6-bade-468439a2185b")
 	)
-	(label "ENC_A"
+	(label "ENC_B"
 		(at 46.99 55.88 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3167,7 +3167,7 @@
 		)
 		(uuid "188fd674-b0c3-4feb-92c8-73244b82b05b")
 	)
-	(label "ENC_B"
+	(label "ENC_A"
 		(at 46.99 53.34 180)
 		(fields_autoplaced yes)
 		(effects
