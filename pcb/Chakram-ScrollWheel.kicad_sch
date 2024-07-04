@@ -3310,19 +3310,21 @@
 		(fields_autoplaced yes)
 		(uuid "08ff75c4-1e75-4c4d-81a5-93578c10f5ce")
 		(property "Reference" "TP5"
-			(at 91.44 26.67 0)
+			(at 92.71 30.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "LED_G"
-			(at 91.44 29.21 0)
+		(property "Value" "G"
+			(at 92.71 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
@@ -3925,19 +3927,21 @@
 		(fields_autoplaced yes)
 		(uuid "42bfe6ba-7504-446e-a362-64da292c24e0")
 		(property "Reference" "TP4"
-			(at 85.09 30.48 0)
+			(at 86.36 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "LED_R"
-			(at 85.09 33.02 0)
+		(property "Value" "R"
+			(at 86.36 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
@@ -4270,7 +4274,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED_B"
+		(property "Value" "B"
 			(at 105.41 58.4199 0)
 			(effects
 				(font
