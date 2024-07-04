@@ -3365,7 +3365,7 @@
 		(uuid "64710223-0b24-4ded-b248-d381e252c9cd")
 		(at 64.3 59.3 180)
 		(descr "Light Tactile Switch, https://api.pim.na.industrial.panasonic.com/file_stream/main/fileversion/245520")
-		(property "Reference" "SW2"
+		(property "Reference" "SW1"
 			(at 0 3.9 0)
 			(layer "B.SilkS")
 			(uuid "9ba4985f-d693-4222-a667-6aba37e265ec")
@@ -3620,7 +3620,7 @@
 		(at 86.1 61.8)
 		(descr "Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
 		(tags "rotary encoder")
-		(property "Reference" "SW1"
+		(property "Reference" "EN1"
 			(at 4 -2.5 90)
 			(layer "B.SilkS")
 			(uuid "c35bdaa7-449a-4dc9-9c10-115c2a9209be")
@@ -3632,7 +3632,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "RotaryEncoder"
+		(property "Value" "RotaryEncoder_MP"
 			(at 2 -9.5 0)
 			(layer "B.Fab")
 			(uuid "36819751-9278-40a6-8a25-f5ccbac75543")
@@ -3672,7 +3672,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs"
+		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with MP Pin"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3853,6 +3853,9 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.125)
+			(net 1 "GND")
+			(pinfunction "MP")
+			(pintype "passive")
 			(uuid "1d91ab72-5c75-4648-a1a8-61f9681ed774")
 		)
 		(pad "MP" thru_hole roundrect
@@ -3862,6 +3865,9 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.125)
+			(net 1 "GND")
+			(pinfunction "MP")
+			(pintype "passive")
 			(uuid "e3a400b6-a249-4dd1-8442-15c12a9a0755")
 		)
 		(model "${MOUCHA_LIB}/Moucha.3dshapes/EC10E1220501.STEP"

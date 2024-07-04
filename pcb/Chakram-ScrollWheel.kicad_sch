@@ -765,22 +765,22 @@
 				)
 			)
 		)
-		(symbol "Device:RotaryEncoder"
+		(symbol "Moucha_Mechanical:RotaryEncoder_MP"
 			(pin_names
 				(offset 0.254) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 6.604 0)
+			(property "Reference" "EN"
+				(at 0 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "RotaryEncoder"
-				(at 0 -6.604 0)
+			(property "Value" "RotaryEncoder_MP"
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -797,7 +797,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 6.604 0)
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -805,8 +805,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs"
-				(at 0 0 0)
+			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with MP Pin"
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -814,7 +814,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "rotary switch encoder"
+			(property "ki_keywords" "rotary encoder"
 				(at 0 0 0)
 				(effects
 					(font
@@ -832,7 +832,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "RotaryEncoder_0_1"
+			(symbol "RotaryEncoder_MP_0_1"
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -5.08)
@@ -987,7 +987,7 @@
 					)
 				)
 			)
-			(symbol "RotaryEncoder_1_1"
+			(symbol "RotaryEncoder_MP_1_1"
 				(pin passive line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -1035,6 +1035,24 @@
 						)
 					)
 					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2185,6 +2203,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 55.88) (xy 67.31 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a0c5dc0-9545-4eb4-9e9f-b25f6bbcac89")
+	)
+	(wire
+		(pts
 			(xy 53.34 116.84) (xy 64.77 116.84)
 		)
 		(stroke
@@ -2532,6 +2560,16 @@
 			(type default)
 		)
 		(uuid "a904834f-f0f4-4fc5-ba11-7972703ab422")
+	)
+	(wire
+		(pts
+			(xy 67.31 55.88) (xy 67.31 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9baf792-c34e-483d-bf06-e214b7c027e3")
 	)
 	(wire
 		(pts
@@ -3615,8 +3653,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65e63050-ef82-4541-9f68-b777f99bd9fe")
-		(property "Reference" "SW2"
-			(at 104.14 54.61 0)
+		(property "Reference" "SW1"
+			(at 104.14 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3667,7 +3705,7 @@
 		(instances
 			(project ""
 				(path "/b09dc29a-b779-491f-be6b-b7a621e0664e"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -3881,6 +3919,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 67.31 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99b18a5e-5c70-43bc-8e49-efc25c9c4ed3")
+		(property "Reference" "#PWR08"
+			(at 67.31 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 67.31 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e63c827-0d47-417e-87f1-db30675f9ecb")
+		)
+		(instances
+			(project "Chakram-ScrollWheel"
+				(path "/b09dc29a-b779-491f-be6b-b7a621e0664e"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 180.34 58.42 0)
 		(unit 1)
@@ -3947,7 +4051,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:RotaryEncoder")
+		(lib_id "Moucha_Mechanical:RotaryEncoder_MP")
 		(at 57.15 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3956,25 +4060,23 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7bd7fbd-b937-431b-b567-d8c2dddc1df6")
-		(property "Reference" "SW1"
-			(at 63.5 54.6099 90)
+		(property "Reference" "EN1"
+			(at 57.15 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "RotaryEncoder"
-			(at 63.5 57.1499 90)
+		(property "Value" "RotaryEncoder_MP"
+			(at 57.15 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Moucha_Primitives:RotaryEncoder_Alps_EC10E"
+		(property "Footprint" ""
 			(at 53.086 59.69 0)
 			(effects
 				(font
@@ -3984,7 +4086,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.546 55.88 0)
+			(at 69.85 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3992,8 +4094,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs"
-			(at 57.15 55.88 0)
+		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with MP Pin"
+			(at 72.39 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4010,10 +4112,13 @@
 		(pin "B"
 			(uuid "287699be-849f-4b0c-9bb8-d7bd73fe80ad")
 		)
+		(pin "MP"
+			(uuid "d2476612-7d1d-4324-9139-84dd28fde6e2")
+		)
 		(instances
 			(project ""
 				(path "/b09dc29a-b779-491f-be6b-b7a621e0664e"
-					(reference "SW1")
+					(reference "EN1")
 					(unit 1)
 				)
 			)
