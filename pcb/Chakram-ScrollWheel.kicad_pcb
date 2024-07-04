@@ -915,7 +915,7 @@
 			(at 0 -4.55 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "b967af06-a935-430d-9c4b-1e0952b419e9")
+			(uuid "c6140f6d-71cd-4145-bc6b-6c6817cdaf95")
 			(effects
 				(font
 					(size 1 1)
@@ -927,7 +927,7 @@
 			(at 0 -4.1 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "9d60c0c1-dc6b-44da-87a4-3b7fb5e7b51a")
+			(uuid "fcab5ff6-bbf0-4195-8468-d058a24d9e85")
 			(effects
 				(font
 					(size 0.8 0.9)
@@ -940,7 +940,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b6a58f8b-2556-4af9-830a-a18d15dcc796")
+			(uuid "d16b6b28-633a-414d-b957-307039d18898")
 			(effects
 				(font
 					(size 1 1)
@@ -953,7 +953,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c87dc2dc-959d-4d99-9b6e-db664e06abf1")
+			(uuid "5d476ac0-7d17-47bb-bb59-923cd2de767b")
 			(effects
 				(font
 					(size 1 1)
@@ -966,7 +966,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2bef557b-b529-4551-b750-17babb07d272")
+			(uuid "39547dbd-a70e-4198-bb99-67fea2140be6")
 			(effects
 				(font
 					(size 1 1)
@@ -986,7 +986,7 @@
 			)
 			(fill none)
 			(layer "Edge.Cuts")
-			(uuid "73c9ef55-174a-4445-84d2-0224ba8a7dc8")
+			(uuid "ebd8395a-15b1-4760-80c7-e5e68629582a")
 		)
 		(fp_rect
 			(start -1 -7.5)
@@ -997,7 +997,7 @@
 			)
 			(fill none)
 			(layer "B.CrtYd")
-			(uuid "48bc23a8-33f5-4c94-b859-0edade698620")
+			(uuid "db88780e-dfb3-4efb-b3d0-d50b1b3d2f66")
 		)
 		(fp_rect
 			(start -2.7 -3.2)
@@ -1008,13 +1008,13 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "6d6f2f6e-3d02-429f-a1cb-e59a32ab2453")
+			(uuid "6e92bd4f-4e6f-4c26-9103-c067677d4257")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 4.2 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "ead0365f-81ce-40fb-b8d8-2304371fb1be")
+			(uuid "fb84f1ef-d2a8-4fd3-b6a4-37287fa6ceda")
 			(effects
 				(font
 					(size 1 1)
@@ -1022,50 +1022,50 @@
 				)
 			)
 		)
-		(pad "1" smd rect
+		(pad "1" connect rect
 			(at 1.7 -2)
 			(size 1.7 1)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask")
 			(net 8 "/LED_G")
 			(pinfunction "GK")
 			(pintype "passive")
-			(uuid "99d16af4-a9f5-42da-a882-3e430684e4f5")
+			(uuid "ae55ae6a-16f5-42de-ba85-9b4b17e11ce7")
 		)
-		(pad "2" smd rect
+		(pad "2" connect rect
 			(at 1.7 0)
 			(size 1.7 1)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask")
 			(net 1 "GND")
 			(pinfunction "EP")
 			(pintype "passive")
-			(uuid "c90ec496-5d39-44aa-a76c-0c269a034fe1")
+			(uuid "228bd465-2c9b-4018-bc4c-1466b478ad6d")
 		)
-		(pad "3" smd rect
+		(pad "3" connect rect
 			(at 1.7 2)
 			(size 1.7 1)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask")
 			(net 7 "/LED_B")
 			(pinfunction "BK")
 			(pintype "passive")
-			(uuid "277cbdc1-ee90-4995-9061-c4bcdbb47115")
+			(uuid "2d7372da-db16-4b4c-aefe-ac51fdb0220e")
 		)
-		(pad "4" smd rect
+		(pad "4" connect rect
 			(at -1.7 -1)
 			(size 1.7 1)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask")
 			(net 6 "/LED_R")
 			(pinfunction "RK")
 			(pintype "passive")
-			(uuid "fecac82c-fbfb-4da0-ab57-d84407468036")
+			(uuid "36c1d982-8521-416a-b4c2-b26ded554c56")
 		)
-		(pad "5" smd rect
+		(pad "5" connect rect
 			(at -1.7 1)
 			(size 1.7 1)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask")
 			(net 5 "VDD")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "bf26f40a-d89e-4866-8979-3f6d1fe78469")
+			(uuid "481a7195-f959-42d4-b0bf-cfc505cdbb58")
 		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
