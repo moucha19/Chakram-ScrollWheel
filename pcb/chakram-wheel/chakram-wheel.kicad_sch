@@ -4887,7 +4887,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Moucha_Primitives:RotaryEncoder_Alps_EC10E"
 			(at 157.226 39.37 0)
 			(effects
 				(font
